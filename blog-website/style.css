@@ -1,0 +1,41 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 0.7fr repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr 1fr) 1fr;
+    grid-template-areas:
+    "sb main  main   main"
+    "sb main  main  main "
+    "sb main  main  main  "
+    "sb main  main  main "
+    "ft ft     ft     ft    ";
+    height: 100vh;
+    border: solid #000;
+    overflow: visible; 
+}
+
+.sidebar{
+    grid-area: sb;
+    background: #4f5;
+}
+
+.main{
+    grid-area: main;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr 1fr);
+
+}
+
+#imgbox{
+    background: skyblue;
+}
+
+#contentbox{
+    background: palevioletred;
+
+}
+
+.footer{
+    grid-area: ft;
+}
