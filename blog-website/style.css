@@ -1,4 +1,39 @@
+body{
+    margin: 0;
+}
 
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 85% 0.7fr;
+    grid-template-areas:
+    "nav "
+    "main"
+    "ft  ";
+    height: 100vh;
+}
+
+.navbar{
+    grid-area: nav;
+    background: #4f5;
+}
+
+.main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+#blogs{
+    background: skyblue;
+}
+
+.footer{
+    grid-area: ft;
+}
+
+
+@media screen and (min-width:900px) { 
 body{
     margin: 0;
 }
@@ -35,3 +70,4 @@ body{
     grid-area: ft;
 }
 
+}
