@@ -2,43 +2,36 @@
 body{
     margin: 0;
 }
+
 .container {
     display: grid;
     grid-template-columns: 0.7fr repeat(3, 1fr);
     grid-template-rows: repeat(2, 2fr 1fr) 1fr;
     grid-template-areas:
-    "sb main  main main"
-    "sb main  main main"
-    "sb main  main main"
-    "sb main  main main"
-    "ft ft    ft   ft  ";
+    "nav main main main"
+    "nav main main main"
+    "nav main main main"
+    "nav main main main"
+    "ft  ft   ft   ft ";
     height: 100vh;
 }
 
-.sidebar{
-    grid-area: sb;
+.navbar{
+    grid-area: nav;
     background: #4f5;
 }
 
 .main{
     grid-area: main;
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 2fr 1fr);
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-#imgbox{
+#blogs{
     background: skyblue;
-}
-
-#contentbox{
-    background: palevioletred;
-
 }
 
 .footer{
     grid-area: ft;
 }
 
-}
