@@ -1,3 +1,5 @@
+@import url("navbar.css");
+
 body{
     margin: 0;
 }
@@ -15,7 +17,6 @@ body{
 
 .navbar{
     grid-area: nav;
-    background: #4f5;
 }
 
 .main{
@@ -53,7 +54,6 @@ body{
 
 .navbar{
     grid-area: nav;
-    background: #4f5;
 }
 
 .main{
