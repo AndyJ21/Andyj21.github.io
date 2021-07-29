@@ -1,17 +1,18 @@
 
+body{
+    margin: 0;
+}
 .container {
     display: grid;
     grid-template-columns: 0.7fr repeat(3, 1fr);
     grid-template-rows: repeat(2, 2fr 1fr) 1fr;
     grid-template-areas:
-    "sb main  main   main"
-    "sb main  main  main "
-    "sb main  main  main  "
-    "sb main  main  main "
+    " main  main   main"
+    " main  main  main "
+    " main  main  main  "
+    " main  main  main "
     "ft ft     ft     ft    ";
     height: 100vh;
-    border: solid #000;
-    overflow: visible; 
 }
 
 .sidebar{
@@ -39,3 +40,4 @@
 .footer{
     grid-area: ft;
 }
+
