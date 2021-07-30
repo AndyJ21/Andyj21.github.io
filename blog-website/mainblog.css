@@ -1,0 +1,24 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 10px;
+    background: #222;
+    padding: 1em;
+}
+
+.blogs{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 1em;
+    margin: 0;
+    background: rgba(200, 200, 200,0.2);
+    
+    color: #fff8dc;
+}
+
+#imgalbum{
+    width: 95%;
+
+}
+
