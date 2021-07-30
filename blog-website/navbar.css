@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Rock+Salt&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
 
 .navbar{
     display: flex;
@@ -6,21 +7,67 @@
     align-items: center;
 }
 
-#navlinks{
-    display: inline-block;    
+h1{
+    font-family: 'Amatic SC', cursive;
+    cursor: pointer;
+}
+
+.navbox{
+    padding: 0 20px;
+    margin: 0;
+    
+}
+
+#navlinks{  
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: #722F37; 
+    text-decoration: none;
+}
+
+#navlinks:hover{
+    color: #FFFDD0;
+}
+
+button{
+    padding: 0.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: rgba(114, 47, 55,1);
+    border: none;
+    border-radius: 20px ;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgba(114, 47, 55,0.6);
 }
 
 @media screen and (min-width: 900px) {
 
-    .navbar{
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #navlinks{
-        display: flex;
-        flex-direction: column;        
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
+
+ h1{
+    font-weight: 2000;
+    font-size: 35px;
+}    
+    
+.navbox{
+    display: flex;
+    flex-direction: column;        
+}
+
+#navlinks{  
+    font-size: 22px;
+}
+
+button{
+    padding: 0.6em;
+}    
+
 }
