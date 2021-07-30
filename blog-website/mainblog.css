@@ -3,7 +3,7 @@ main{
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     grid-gap: 10px;
     background: #222;
-    padding: 1em;
+    padding: 0 1em;
 }
 
 .blogs{
@@ -19,6 +19,14 @@ main{
 
 #imgalbum{
     width: 95%;
+}
 
+#link{
+    color: #fff8dc;
+    text-decoration: none;
+}
+
+#link:hover{
+    color: #f08080;
 }
 

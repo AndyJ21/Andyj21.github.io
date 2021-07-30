@@ -36,14 +36,14 @@ body{
 
 .container {
     display: grid;
-    grid-template-columns: 0.7fr repeat(3, 1fr);
-    grid-template-rows: repeat(2, 2fr 1fr) 1fr;
+    grid-template-columns: 0.5fr repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr 1fr) 0.4fr;
     grid-template-areas:
     "nav main main main"
     "nav main main main"
     "nav main main main"
     "nav main main main"
-    "nav  ft   ft   ft ";
+    "ft  ft   ft   ft ";
     height: 150;
 }
 
