@@ -1,0 +1,9 @@
+footer{
+    display: grid;
+    justify-content: center;
+}
+
+.socialmedia{
+    display: flex;
+    align-self: center;
+}
