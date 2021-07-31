@@ -9,7 +9,7 @@ body{
 .container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 85% 0.7fr;
+    grid-template-rows: 0.7fr 85% 0.7fr;
     grid-template-areas:
     "nav "
     "main"
@@ -37,7 +37,7 @@ body{
 
 .container {
     display: grid;
-    grid-template-columns: 0.5fr repeat(3, 1fr);
+    grid-template-columns: 0.7fr repeat(3, 1fr);
     grid-template-rows: repeat(2, 2fr 1fr) 0.4fr;
     grid-template-areas:
     "nav main main main"
