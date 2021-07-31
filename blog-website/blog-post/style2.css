@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "nb   nb"
+    "main sb"
+    "ft   ft";
+}
+
+.navigationbar{
+    grid-area: nb;
+}
+
+.content{
+    grid-area: main;
+}
+
+.sidebar{
+    grid-area: sb;
+}
+
+.footer{
+    grid-area: ft;
+}
