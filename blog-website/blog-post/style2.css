@@ -1,14 +1,15 @@
 @import url("navbar2.css");
 
 body{
+    display: inline-block;
     margin: 0;
     height: 100vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 2fr 20% 70% 1fr;
+    grid-template-rows: 0.6fr 20% 40% 0.9fr;
     grid-template-areas: 
     "nb  "
-    "sb"
+    "sb  "
     "main"
     "ft  ";
 }
