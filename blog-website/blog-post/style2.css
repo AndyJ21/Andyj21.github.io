@@ -40,7 +40,7 @@ body{
     height: auto;
     display: grid;
     grid-template-columns: 75% 1fr;
-    grid-template-rows: 1fr 85% 0.4fr;
+    grid-template-rows: 0.3fr 4fr 0.2fr;
     grid-template-areas: 
     "nb   nb"
     "main sb"
