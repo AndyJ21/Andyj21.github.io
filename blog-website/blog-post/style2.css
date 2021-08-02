@@ -1,12 +1,11 @@
 @import url("navbar2.css");
+@import url("content.css");
 
 body{
-    display: inline-block;
     margin: 0;
-    height: 100vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 0.6fr 20% 40% 0.9fr;
+    grid-template-rows: 0.2fr 0.7fr 2fr 0.2fr;
     grid-template-areas: 
     "nb  "
     "sb  "
@@ -38,10 +37,10 @@ body{
 @media screen and (min-width: 600px) {
     body{
     margin: 0;
-    height: 100vh;
+    height: auto;
     display: grid;
     grid-template-columns: 75% 1fr;
-    grid-template-rows: 1fr 85% 1.5fr;
+    grid-template-rows: 1fr 85% 0.4fr;
     grid-template-areas: 
     "nb   nb"
     "main sb"
