@@ -42,7 +42,7 @@ body{
     grid-template-areas: 
     "nb   nb"
     "main sb"
-    "ft   ft";
+    "ft   sb";
 }
 
 .navigationbar{
