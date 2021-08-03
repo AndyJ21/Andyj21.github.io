@@ -1,11 +1,12 @@
 @import url("navbar2.css");
 @import url("content.css");
+@import url("author.css");
 
 body{
     margin: 0;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 0.2fr 0.7fr 2fr 0.2fr;
+    grid-template-rows: 0.2fr 0.4fr 2fr 0.2fr;
     grid-template-areas: 
     "nb  "
     "sb  "
