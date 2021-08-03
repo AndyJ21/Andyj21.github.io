@@ -57,9 +57,11 @@
         background: #f08080;
        
     }
+    
     .author{
         position: fixed;
     }
+
     #avatar{
         margin: 1em 3em 1em;
         width: 150px;
@@ -79,7 +81,7 @@
         padding: 0;
     }
 
-    #user{
+    .user{
         padding: 0;
         margin: 5px 0;
     }
