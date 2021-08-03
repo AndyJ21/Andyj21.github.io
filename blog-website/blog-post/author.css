@@ -1,21 +1,26 @@
 .sidebar{
     display: grid;
-    padding: 0.5em;
     margin: 0;
 
 }
 
 .author{
-    margin-bottom: 0.8em;
     padding: 0.5em;
-    
-    background: red
+
 }
 
 #avatar{
     border-radius: 50%;
     float: left;
-    margin: 1em 1.5em;
+    margin: 1em 1.5em 0 1em;
+}
+
+#bio{
+    margin-top: 4em;
+}
+
+#contact{
+    text-align: center;
 }
 
 .fa {
@@ -38,4 +43,31 @@
 
 .fa-linkedin:hover{
     background: #007bb5;
+}
+
+@media(min-width: 600px){
+    #avatar,
+    .author{
+        justify-self: center;
+        width: 200px
+    }
+
+    #avatar{
+        margin-bottom: 1em;
+    }
+
+    .socialmedia{
+     display: flex;
+     justify-content: space-evenly;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 35px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0;
+        color: #fff;
+      }
 }
