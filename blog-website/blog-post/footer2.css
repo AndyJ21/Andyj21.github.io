@@ -12,6 +12,7 @@ footer{
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    margin-right: 40px;
 }
 
 h3{
@@ -31,7 +32,7 @@ h3{
     margin: 0;
     color: #fff;
     border-radius: 50%;
-  }
+}
   
 .fa-facebook:hover{
     background: #3B5998;
