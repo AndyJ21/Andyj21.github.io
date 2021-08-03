@@ -6,30 +6,32 @@
     align-items: center;
     justify-content: space-between;
     background: #444;
+    
 
 }
 
 .navbox{
     list-style-type: none;
+   
 }
 
 #logo{
     margin: 0 1em;
     font-family: 'Amatic SC', cursive; cursor: pointer;
     font-size: 36px; 
-    color: #EADDCA 
+    color: #f08080; 
 }
 
 li,
 .navbox{
     display: inline-block;
     padding: 0.3em;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif; 
 }
 
 a{
-    color: #EADDCA;
     text-decoration: none;
+    color: #f08080;
 }
 
 a:hover{
