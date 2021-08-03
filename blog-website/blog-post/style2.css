@@ -6,7 +6,7 @@ body{
     margin: 0;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 0.2fr 0.4fr 2fr 0.2fr;
+    grid-template-rows: 0.2fr 0.3fr 2fr 0.2fr;
     grid-template-areas: 
     "nb  "
     "sb  "
