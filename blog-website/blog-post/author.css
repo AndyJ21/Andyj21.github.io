@@ -1,0 +1,41 @@
+.sidebar{
+    display: grid;
+    padding: 0.5em;
+    margin: 0;
+
+}
+
+.author{
+    margin-bottom: 0.8em;
+    padding: 0.5em;
+    
+    background: red
+}
+
+#avatar{
+    border-radius: 50%;
+    float: left;
+    margin: 1em 1.5em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1px;
+    color: #fff;
+  }
+    
+.fa-facebook:hover{
+    background: #3B5998;
+}
+
+.fa-github:hover{
+    background: RGBA(250, 250, 250,0.7);
+}
+
+.fa-linkedin:hover{
+    background: #007bb5;
+}
