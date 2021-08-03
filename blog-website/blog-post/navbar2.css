@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Rock+Salt&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 .navigationbar{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background: #444;
 
 }
 
@@ -9,13 +13,41 @@
     list-style-type: none;
 }
 
+#logo{
+    margin: 0 1em;
+    font-family: 'Amatic SC', cursive; cursor: pointer;
+    font-size: 36px; 
+    color: #EADDCA 
+}
+
 li,
 .navbox{
     display: inline-block;
+    padding: 0.3em;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 a{
+    color: #EADDCA;
     text-decoration: none;
+}
+
+a:hover{
+    color: #f08080;
+}
+
+button{
+    padding: 0.5em;
+    font-family: 'Titillium Web', sans-serif;
+    color: #eee;
+    background: #FA8072;
+    border: none;
+    border-radius: 20px ;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgba(250, 128, 114, 0.6);
 }
 
 @media screen and (min-width: 600px) {
@@ -28,12 +60,13 @@ a{
 
 #logo{
     margin-right: auto ;
-    padding: 0 3em;
+    padding: 0 ;
 }
 
 li,
 .navbox{
     padding: 0 1em;
+    font-size: 20px;
 }
 
 }

@@ -7,7 +7,7 @@ body{
     margin: 0;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 0.2fr 0.3fr 2fr 0.2fr;
+    grid-template-rows: 0.1fr 0.3fr 2fr 0.2fr;
     grid-template-areas: 
     "nb  "
     "sb  "
@@ -17,7 +17,6 @@ body{
 
 .navigationbar{
     grid-area: nb;
-    background: yellow;
 }
 
 .content{
@@ -51,7 +50,6 @@ body{
 
 .navigationbar{
     grid-area: nb;
-    background: yellow;
 }
 
 .content{
