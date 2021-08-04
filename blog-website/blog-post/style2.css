@@ -1,0 +1,63 @@
+@import url("navbar2.css");
+@import url("content.css");
+@import url("author.css");
+@import url("footer2.css");
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0.1fr 0.3fr 2fr 0.2fr;
+    grid-template-areas: 
+    "nb  "
+    "sb  "
+    "main"
+    "ft  ";
+}
+
+.navigationbar{
+    grid-area: nb;
+}
+
+.content{
+    grid-area: main;
+}
+
+.sidebar{
+    grid-area: sb;
+}
+
+.footer{
+    grid-area: ft;
+}
+
+
+@media screen and (min-width: 600px) {
+    body{
+    margin: 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 0.3fr 4fr 0.2fr;
+    grid-template-areas: 
+    "nb   nb"
+    "main sb"
+    "ft   sb";
+}
+
+.navigationbar{
+    grid-area: nb;
+}
+
+.content{
+    grid-area: main;
+}
+
+.sidebar{
+    grid-area: sb;
+}
+
+.footer{
+    grid-area: ft;
+}
+}
