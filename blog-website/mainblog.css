@@ -2,7 +2,7 @@ main{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     grid-gap: 10px;
-    background: #222;
+    background: #111;
     padding: 0 1em;
 }
 
@@ -16,16 +16,16 @@ main{
     color: #fff8dc;
 }
 
-#imgalbum{
+.imgalbum{
     width: 95%;
 }
 
-#link{
+.link{
     color: #fff8dc;
     text-decoration: none;
 }
 
-#link:hover{
+.link:hover{
     color: #f08080;
 }
 

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Rock+Salt&family=Style+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 .navbar{
     display: flex;
@@ -19,15 +19,15 @@ h1{
     
 }
 
-#navlinks{  
-    font-family: 'Josefin Slab', serif;
+.navlinks{  
+    font-family: 'Libre Baskerville', serif;
     font-size: 20px;
-    color: #722F37; 
+    color: rgb(54, 69, 79); 
     text-decoration: none;
 }
 
-#navlinks:hover{
-    color: #FFFDD0;
+.navlinks:hover{
+    color: rgba(54, 69, 79, 0.4);
 }
 
 button{
