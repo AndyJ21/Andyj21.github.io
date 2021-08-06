@@ -32,18 +32,18 @@ body{
     grid-area: ft;
 }
 
-
-@media screen and (min-width: 600px) {
+  
+@media screen and (min-width: 800px) {
     body{
     margin: 0;
     height: auto;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 0.5fr;
     grid-template-rows: 0.3fr 4fr 0.2fr;
     grid-template-areas: 
     "nb   nb"
     "main sb"
-    "ft   sb";
+    "ft   ft";
 }
 
 .navigationbar{

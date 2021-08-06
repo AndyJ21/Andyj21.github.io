@@ -18,7 +18,7 @@
 #logo{
     margin: 0 1em;
     font-family: 'Amatic SC', cursive; cursor: pointer;
-    font-size: 36px; 
+    font-size: 26px; 
     color: #f08080; 
 }
 
@@ -39,7 +39,7 @@ a:hover{
 }
 
 button{
-    padding: 0.5em;
+    padding: 0.2em;
     font-family: 'Titillium Web', sans-serif;
     color: #eee;
     background: #FA8072;
